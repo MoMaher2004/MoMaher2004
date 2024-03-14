@@ -50,7 +50,7 @@ $(document).ready(function () {
     //-----------------------
     var t1="Greetings!";
     var t2="I'm Mohamed Maher";
-    var t3="I'm a full-stack web developer with a specialization in back-end development and a focus on creating Chrome extensions. Currently, I am pursuing my studies at the Faculty of Electronic Engineering, Department of Computer Science, Monufia University.";
+    var t3="I'm a full-stack web developer with a specialization in back-end development. Currently, I am pursuing my studies at the Faculty of Electronic Engineering, Department of Computer Science, Monufia University.";
     let i=0;
     var interval = setInterval(() => {
         if(i<t1.length){
