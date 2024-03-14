@@ -3,11 +3,8 @@ var sk = [
     { 'title': 'html', 'image': 'images/html.png', "fontSize": ""},
     { 'title': 'css', 'image': 'images/css.png', "fontSize": ""},
     { 'title': 'javascript', 'image': 'images/js.png', "fontSize": ""},
-    { 'title': 'node', 'image': 'images/node.png', "fontSize": ""},
     { 'title': 'jquery', 'image': 'images/jquery.png', "fontSize": ""},
     { 'title': 'mySQL', 'image': 'images/mysql.png', "fontSize": ""},
-    { 'title': 'MongoDB', 'image': 'images/mongodb.png', "fontSize": ""},
-    { 'title': 'Browser Extension', 'image': 'images/extension.png', "fontSize": "24"},
     { 'title': 'php', 'image': 'images/php.png', "fontSize": ""}
 ];
 
