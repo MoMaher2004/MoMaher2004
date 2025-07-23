@@ -1,22 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* :root{
-    --logo: url("logo.png");
-    --bg: url(bgg-light.png);
-    --LD: url(moon.png);
-    --fontColor: black;
-    --backFontColor: white;
-} */
 :root{
-    --logo: url("logo-dark.png");
-    --bg: url(bgg-dark.png);
-    /* --LD: url(sun.png); */
+    --logo: url("/assets/logo-dark.png");
+    --bg: url(/assets/bgg-dark.png);
     --fontColor: white;
     --backFontColor: black;
 }
 *{
     user-select: none;
-    cursor: url(cursor.cur),auto;
+    cursor: url(/assets/cursor.cur),auto;
 }
 
 /* width */
@@ -70,165 +62,6 @@ a,*[role=button]{
     max-height: 90%;
     z-index: 101;
 }
-/* #bla div{
-    position: relative;
-    width: 709px;
-    height: 240px;
-    overflow: hidden;
-    top: calc(50% - 120px);
-    left: calc(50% - 355px);
-}
-#bla div .logo:nth-child(1){
-    position: absolute;
-    height: 226px;
-    width: 197px;
-    background-image: url(logo-dark.png);
-    background-position: -19px -7px;
-    z-index: 18;
-    animation-name: logo1;
-    animation-duration: 100000s;
-}
-@keyframes logo1{
-    0% {
-        left: 270px;
-    }
-    .005% {
-        left: 270px;
-    }
-    .006% {
-        left: 19px;
-    }
-    100% {
-        left: 19px;
-    }
-}
-#bla div .hide:nth-child(5){
-    position: absolute;
-    height: 240px;
-    width: 421px;
-    top: 0px;
-    left: 269px;
-    z-index: 19;
-    background-color: #000;
-    animation-name: hide;
-    animation-duration: 100000s;
-}
-@keyframes hide{
-    0% {
-        z-index: 19;
-    }
-    .005% {
-        z-index: 19;
-    }
-    .006% {
-        z-index: 0;
-    }
-    100% {
-        z-index: 0;
-    }
-}
-#bla div .logo:nth-child(2){
-    position: absolute;
-    height: 226px;
-    width: 5px;
-    background-image: url(logo-dark.png);
-    background-position: -264px -6px;
-    top: 6px;
-    left: 264px;
-    z-index: 20;
-    animation-name: logo2;
-    animation-duration: 100000s;
-}
-#bla div .hide:nth-child(6){
-    position: absolute;
-    height: 240px;
-    width: 269px;
-    top: 0px;
-    left: 0px;
-    z-index: 16;
-    background-color: #000;
-}
-@keyframes logo2{
-    0% {
-        scale: 0;
-        rotate: 90deg;
-    }
-    .001% {
-        scale: 1;
-        rotate: 90deg;
-    }
-    .002% {
-        scale: 1;
-        rotate: 90deg;
-    }
-    .003% {
-        scale: 1;
-        rotate: 0deg;
-    }
-    100% {
-        scale: 1;
-        rotate: 90deg;
-    }
-}
-#bla div .logo:nth-child(3){
-    position: absolute;
-    height: 79px;
-    width: 375px;
-    background-image: url(logo-dark.png);
-    background-position: -315px -37px;
-    top: 37;
-    z-index: 15;
-    animation-name: logo3;
-    animation-duration: 100000s;
-}
-#bla div .hide:nth-child(7){
-    position: absolute;
-    height: 157px;
-    width: 440px;
-    top: 0px;
-    left: 269px;
-    z-index: 14;
-    background-color: #000;
-}
-@keyframes logo3{
-    0% {
-        left: -200px;
-    }
-    .006% {
-        left: -200px;
-    }
-    .007% {
-        left: 315px;
-    }
-    100% {
-        left: 315px;
-    }
-}
-#bla div .logo:nth-child(4){
-    position: absolute;
-    height: 31px;
-    width: 262px;
-    z-index: 13;
-    left: 358px;
-    background-image: url(logo-dark.png);
-    background-position: -358px -157px;
-    animation-name: logo4;
-    animation-duration: 100000s;
-}
-@keyframes logo4{
-    0% {
-        top: 126px;
-    }
-    .007% {
-        top: 126px;
-    }
-    .008% {
-        top: 157px;
-    }
-    100% {
-        top: 157px;
-    }
-} */
 #bgg{
     position: absolute;
     width: 100%;
@@ -310,7 +143,7 @@ section{
     height: 100%;
     margin-top: 0px;
     margin-left: -8px;
-    background-image: url(bg.jpg);
+    background-image: url(/assets/bg.jpg);
     background-size: 200% auto;
     background-position: center 0%;
     letter-spacing: 3px;
@@ -375,7 +208,6 @@ section{
     width: 200px;
     opacity: 0;
     scale: 0;
-    /* transform: translateY(50%); */
 }
 .popup{
     animation-name: xp;
@@ -448,8 +280,6 @@ section{
     position: relative;
     transform: rotateY(90deg);
     transition-duration: .4s;
-    /* opacity: 0;
-    transform: translateY(50%); */
 }
 
 .rotation {
@@ -525,7 +355,6 @@ section{
     display: flex;
     flex-direction: column;
 }
-#tit{}
 #dis{
     display: flex;
     padding-bottom: 200px;
@@ -706,10 +535,6 @@ hr{
     #xp div span p{
         font-size: 19px;
     }
-    /* #pw div span{
-        height: 250px;
-        width: 250px;
-    } */
     #window{
         flex-direction: column;
     }
