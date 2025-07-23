@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --logo: url("/assets/logo-dark.png");
-    --bg: url(/assets/bgg-dark.png);
+    --logo: url("assets/logo-dark.png");
+    --bg: url(assets/bgg-dark.png);
     --fontColor: white;
     --backFontColor: black;
 }
 *{
     user-select: none;
-    cursor: url(/assets/cursor.cur),auto;
+    cursor: url(assets/cursor.cur),auto;
 }
 
 /* width */
@@ -42,6 +42,7 @@ body{
     background-position: center 200px;
     overflow-x: hidden;
     width: calc(100% - 12px);
+    padding-left: 40px;
 }
 a,*[role=button]{
     cursor: pointer!important;
@@ -143,7 +144,7 @@ section{
     height: 100%;
     margin-top: 0px;
     margin-left: -8px;
-    background-image: url(/assets/bg.jpg);
+    background-image: url(assets/bg.jpg);
     background-size: 200% auto;
     background-position: center 0%;
     letter-spacing: 3px;

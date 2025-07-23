@@ -12,12 +12,12 @@ var pw = [
     title: "Blue link",
     disc: "In 2020, I created BlueLink, a link shortening website, as a coding practice project. Utilizing a combination of HTML, CSS, JavaScript, jQuery, PHP, and MySQLi, I ensured its comprehensive functionality and robust security measures, delivering a fully operational and secure platform.",
     images: [
-      "/assets/logo.png",
-      "/assets/bl0.png",
-      "/assets/bl1.png",
-      "/assets/bl2.png",
-      "/assets/bl3.png",
-      "/assets/bl4.png",
+      "assets/logo.png",
+      "assets/bl0.png",
+      "assets/bl1.png",
+      "assets/bl2.png",
+      "assets/bl3.png",
+      "assets/bl4.png",
     ],
     bg: "#fff",
   },
@@ -121,6 +121,7 @@ $(document).ready(function () {
 
   // Skills
   var skills = $("#xp div").eq(0);
+  var an = [];
 
   $.each(sk, function (i, val) {
     skills.append(
